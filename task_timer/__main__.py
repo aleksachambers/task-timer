@@ -7,10 +7,7 @@ def main():
     """This is my main cli."""
 
 @main.command()
-def begin():
-    print(Task.start)
-    print(Task.current_task)
-
-@main.command()
-def end():
-    print(Task.end)
+def run():
+    """To start the timer, use 'uv run task-timer run'."""
+    task = Task()
+    task.start()
