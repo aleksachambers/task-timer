@@ -1,5 +1,4 @@
 import click
-import time, datetime
 from task_timer.run_task import Task
 
 @click.group()
